@@ -388,31 +388,6 @@ Pedido:
 "Implemente a função <NOME> que faz <OBJETIVO>. Gere também testes unitários cobrindo casos feliz e casos de erro. Retorne apenas o código Go sem explicações. Não altere arquivos fora da pasta <pasta>."
 ```
 
-## ADR template (`docs/adr/template.md`)
-
-```md
-# ADR N - Título da decisão
-
-Data: YYYY-MM-DD  
-Status: Proposed | Accepted | Deprecated
-
-## Contexto
-
-Breve descrição do problema.
-
-## Decisão
-
-O que foi decidido.
-
-## Consequências
-
-Impactos, trade-offs e próximos passos.
-
-## Autores
-
-- Nome (email)
-```
-
 ---
 
 # Resumo final
