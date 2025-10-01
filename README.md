@@ -225,12 +225,9 @@ Closes #<numero>
 - [ ] Lint OK
 - [ ] Testes unitários passando
 - [ ] Testes de integração (se aplicável)
-- [ ] ADR atualizado (se relevante)
 - [ ] PR marcado como `ai-assisted` (se a IA foi usada para gerar código importante)
 
 ## Notas
-
-- Se houver decisões importantes, registrar em `docs/adr/`.
 ```
 
 ## Exemplo de **PR checklist** (curto)
@@ -395,7 +392,7 @@ Pedido:
 - Trate a IA como **copiloto**, não como autor final.
 - Mantenha **Git** como fonte única da verdade com proteções de branch e CI forte.
 - Padronize editor, linters e prompts — centralize em arquivos do repositório.
-- Enfatize **revisão humana**, commits pequenos e documentação (ADR).
+- Enfatize **revisão humana**, commits pequenos.
 - Escolha um fluxo de branches que combine com maturidade do time: GitHub Flow é bom padrão; Trunk-Based se CI/feature flags estiverem maduros; Git Flow só para ciclos longos.
 
 ---
@@ -406,5 +403,3 @@ Se quiser, eu já preparo para você (pronto para colar no repositório):
 - `AI-GUIDELINES.md` com 6–8 prompts prontos;
 - Exemplo de `.vscode/settings.json` e `extensions.json`;
 - Um **workflow visual** (passo a passo) para o fluxo que você escolher (GitHub Flow / TBD / Git Flow).
-
-Qual desses eu gero agora pra você colar direto no repo?
