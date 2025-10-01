@@ -14,9 +14,8 @@
    3. [Fluxo de branches simples](#3-fluxo-de-branches-simples)
    4. [CI/CD como guardião](#4-cicd-como-guardião)
    5. [Revisão de código com olhar humano](#5-revisão-de-código-com-olhar-humano)
-   6. [Documentação de decisões (ADR)](#6-documentação-de-decisoes-adr)
-   7. [Prompts e configurações compartilhados](#7-prompts-e-configurações-compartilhados)
-   8. [Práticas de equipe](#8-práticas-de-equipe)
+   6. [Prompts e configurações compartilhados](#7-prompts-e-configurações-compartilhados)
+   7. [Práticas de equipe](#8-práticas-de-equipe)
 
 4. [Modelos práticos: PR template, checklist e exemplos de commit](#modelos-práticos-pr-template-checklist-e-exemplos-de-commit)
 5. [Comparativo rápido: GitHub Flow / Git Flow / Trunk-Based](#comparativo-rápido-github-flow--git-flow--trunk-based)
@@ -153,20 +152,7 @@
 
 ---
 
-## 6. Documentação de decisões (ADR)
-
-- **Onde**: `docs/adr/` ou `docs/decisions/`.
-- **O que registrar**: decisões arquitetais, padrões de uso da IA, convenções de prompt, por que uma solução foi escolhida.
-- **Estrutura mínima (ADR)**:
-
-  - Título, Data, Status (proposto/aceito), Contexto, Decisão, Consequências, Autores.
-
-- **Por quê?**
-  Evita que IAs (ou novos devs) “reaprendam” padrões, fornece contexto para revisões futuras.
-
----
-
-## 7. Prompts e configurações compartilhados
+## 6. Prompts e configurações compartilhados
 
 - **Arquivo no repo**: `AI-GUIDELINES.md` ou `.ai/prompts.md`.
 - **Conteúdo sugerido**:
@@ -185,7 +171,7 @@
 
 ---
 
-## 8. Práticas de equipe
+## 7. Práticas de equipe
 
 - **Pair programming com IA**
 
